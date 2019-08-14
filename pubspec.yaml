@@ -1,0 +1,68 @@
+name: time_tracker
+description: time tracker for redmine
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^1.1.0
+  http: ^0.12.0+2
+  equatable: ^0.2.0
+  json_annotation: ^2.0.0
+  http_interceptor: any
+  shared_preferences: ^0.5.3+4
+  flutter_simple_dependency_injection: any
+  rxdart: ^0.22.1
+  provider: ^3.0.0+1
+  built_value: ^6.1.4
+  after_layout: ^1.0.7+2
+  font_awesome_flutter: any
+  json_serializable: ^3.1.0
+  flushbar: ^1.8.2
+  uni_links: ^0.2.0
+  event_bus: ^1.1.0
+  url_launcher: ^5.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.6.0
+  source_gen: ^0.9.4+2
+  key_value_store:
+  built_value_generator: ^6.1.4
+  flutter_launcher_icons: ^0.7.2+1
+
+flutter_icons:
+  image_path: "resources/drawable/logo.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: resources/fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: resources/fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: resources/fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: resources/fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: resources/fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: resources/fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+    - family: Ds-digital
+      fonts:
+        - asset: resources/fonts/ds_digital/DS-DIGI.TTF
+        - asset: resources/fonts/ds_digital/DS-DIGIB.TTF
+          weight: 700
+  assets:
+    - resources/drawable/
